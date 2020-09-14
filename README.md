@@ -54,8 +54,3 @@ The only requirements are Python3+ and PySide2:
 - Python >=3.2
 - PySide2
 
-Installation from the source package is straightforward:
-
-```bash
-python setup.py install
-```
