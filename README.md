@@ -1,9 +1,8 @@
 # formlayout
 Python module providing the most easy way to create Qt form dialogs and widgets
 
-<img src="https://raw.githubusercontent.com/PierreRaybaut/formlayout/master/doc/images/advanced1.png">
-<img src="https://raw.githubusercontent.com/PierreRaybaut/formlayout/master/doc/images/advanced2.png">
-<img src="https://raw.githubusercontent.com/PierreRaybaut/formlayout/master/doc/images/advanced3.png">
+<img src="Screenshot1.png">
+<img src="Screenshot2.png">
 
 With ``formlayout``, generating a form is very easy:
   * To show a dialog box, just call the ``fedit`` function.
@@ -44,9 +43,6 @@ datalist = [('Name', 'Paul'),
             ]
 fedit(datalist, title="Describe yourself", comment="This is just an <b>example</b>.")
 ```
-
-<img src="https://raw.githubusercontent.com/PierreRaybaut/formlayout/master/doc/images/simple.png">
-
 
 ## Installation
 
