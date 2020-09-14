@@ -56,8 +56,8 @@ fedit(datalist, title="Describe yourself", comment="This is just an <b>example</
 ## Installation
 
 The only requirements are Python and Qt:
-- Python >=2.6 or Python >=3.2
-- PyQt4 >=4.4 or PyQt5 >= 5.5 or PySide
+- Python Python >=3.2
+- PySide2
 
 Installation from the source package is straightforward:
 
