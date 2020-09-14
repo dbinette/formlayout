@@ -267,7 +267,7 @@ def example_4(arg):
 #############################################################################
 
 def multi():
-    """Scan for fuynctions named examples_* and offer them to the user."""
+    """Scan for functions named 'examples_*' and offer them to the user."""
     while True:
         
         #try:
@@ -281,7 +281,9 @@ def multi():
         # formlayout wants the selected value as the first item
         examples = (1,*[ x for x in globals() if x.startswith("example_") ])
 
-        # create a form with two controls, we only use the first one
+        # create a form with two controls, 
+        #   the name of the example to run
+        #   a greeting to pass as an argument to that example (displayed as a title)
         formdata = [("UsersChoice", examples) 
                    ,("greeting"   , "salut!") 
                    ,(None         , "<hr>") 
